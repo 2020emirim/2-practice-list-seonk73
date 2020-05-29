@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Update{% endblock %}
+
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <button type="submit">Modify</button>
+    </form>
+    <button onclick="history.back()">back</button>
+{% endblock %}
