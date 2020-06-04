@@ -22,3 +22,4 @@
 - update : views BookmarkDeleteView, templates bookmark_confirm_delete.html, urls, modify Delete link
 - Cancel button 만들기, base.html 확장하기, bootstrap 적용하기
 - pagination views, base.html, bookmark_list.html
+- static CSS, ...
