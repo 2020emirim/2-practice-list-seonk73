@@ -30,6 +30,8 @@
 {% endblock %}
 
 {% block pagination %}
+    {% if is_paginated %}
+
     <ul class="pagination pagination-sm justify-content-center">
         {% if page_obj.has_previous %}
             <li class="page-item">
@@ -56,4 +58,5 @@
             </li>
         {% endif %}
     </ul>
+    {% endif %}
 {% endblock %}
